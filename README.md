@@ -94,6 +94,32 @@ spec:
 yaml 파일을 실행시켜 클러스터 구성<br>
 ![a9](https://github.com/user-attachments/assets/b955c077-70b3-49fa-aa3d-a77b3ad97bc9)
 
+<br>
+
+![a11](https://github.com/user-attachments/assets/82187141-fd8b-4172-b077-238f2f589cfc)
+
+<br>
+pod들 로그 기록 확인
+
+```
+kubectl logs -f app1-deployment-659c6868bc-5g9q2
+kubectl logs -f app1-deployment-659c6868bc-bvpwp
+```
+
+<br>
+
+![a12](https://github.com/user-attachments/assets/12fe5a6b-82bc-4b0e-9f09-0e09faf30ad1)
+
+<br><br>
+![a14](https://github.com/user-attachments/assets/5ebdae64-ae2e-4ecc-b9e6-116169dbfbd5)
+
+<br>
+
+![a16](https://github.com/user-attachments/assets/ba37bf7c-98b4-4c40-b981-17c2ccc98b5b)
+
+<br>
+로드밸런싱 X
+
 <br><br>
 
 <details>
@@ -142,15 +168,25 @@ spec:
 yaml 파일을 실행시켜 클러스터 구성<br>
 ![a10](https://github.com/user-attachments/assets/4bef7d9c-199f-482d-8103-e0d407b633fb)
 
+<br>
+pod들 로그 기록 확인
+
+```
+kubectl logs -f app2-deployment-574b8455bf-q6x9p
+kubectl logs -f app2-deployment-574b8455bf-t8tms
+```
 
 <br>
 
+![a13](https://github.com/user-attachments/assets/98f8070e-3385-4c38-b5ad-e51141640a3f)
 
+<br><br>
+![a15](https://github.com/user-attachments/assets/95c117f3-4697-4859-a03f-b9d6e5b2e5da)
 
+<br>
 
+![a17](https://github.com/user-attachments/assets/2a9304a7-c13b-4149-bc5a-571d6fa43cc6)
 
-
-
-
-
+<br>
+로드밸런싱 O
 
