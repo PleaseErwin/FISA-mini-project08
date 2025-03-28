@@ -45,8 +45,9 @@ Docker hub에 이미지 업로드<br>
 <br><br>
 
 
-### Minikube
+## Kubernetes Minikube
 
+### NodePort 서비스
 <details>
 <summary> mission1.yaml - NodePort </summary>
 
@@ -117,11 +118,11 @@ kubectl logs -f app1-deployment-659c6868bc-bvpwp
 
 ![a16](https://github.com/user-attachments/assets/ba37bf7c-98b4-4c40-b981-17c2ccc98b5b)
 
-<br>
 로드밸런싱 X
 
 <br><br>
 
+### LoadBalancer 서비스
 <details>
 <summary> mission2.yaml - LoadBalancer </summary>
 
@@ -187,6 +188,5 @@ kubectl logs -f app2-deployment-574b8455bf-t8tms
 
 ![a17](https://github.com/user-attachments/assets/2a9304a7-c13b-4149-bc5a-571d6fa43cc6)
 
-<br>
 로드밸런싱 O
 
